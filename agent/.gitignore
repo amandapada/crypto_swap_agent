@@ -1,0 +1,13 @@
+# Env & secrets (keep examples)
+.env
+.env.*
+!*.env.example
+
+# Python (agent)
+**/.venv/
+**/__pycache__/
+**/*.py[cod]
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
